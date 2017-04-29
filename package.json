@@ -1,0 +1,24 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "This app finds the user a compatible friend based on answers to a short survey",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JPannewitz/HW_FriendFinder.git"
+  },
+  "author": "julia pannewitz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JPannewitz/HW_FriendFinder/issues"
+  },
+  "homepage": "https://github.com/JPannewitz/HW_FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  }
+}
