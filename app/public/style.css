@@ -1,7 +1,13 @@
+.container {
+	background: red;
+}
+
 #matchImg {
 	max-width: 100%
 }
 
-body{
-	color: red;
+
+
+h2{
+	color:blue;
 }

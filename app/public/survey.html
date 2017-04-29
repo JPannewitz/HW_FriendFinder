@@ -5,17 +5,9 @@
 	<title>FriendFinder</title>
 
 	<!-- Latest compiled and minified CSS & JS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-	<!-- Font Awesome Glyphicons -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-
-	<!-- Chosen -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css"">
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"> -->
 
 </head>
 <body>
@@ -152,7 +144,7 @@
 		<br>
 		<br>
 
-		<!-- Submit Button -->
+		<!-- Submit Button
 		<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
  Submit</button>
 
@@ -187,19 +179,23 @@
 	  </div>
 	</div>
 
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
   <script type="text/javascript">
 
-  	// Chosen CSS
-    var config = {
-      '.chosen-select'           : {},
-      '.chosen-select-deselect'  : {allow_single_deselect:true},
-      '.chosen-select-no-single' : {disable_search_threshold:10},
-      '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
-      '.chosen-select-width'     : {width:"95%"}
-    }
-    for (var selector in config) {
-      $(selector).chosen(config[selector]);
-    }
+  	// // Chosen CSS
+   //  var config = {
+   //    '.chosen-select'           : {},
+   //    '.chosen-select-deselect'  : {allow_single_deselect:true},
+   //    '.chosen-select-no-single' : {disable_search_threshold:10},
+   //    '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+   //    '.chosen-select-width'     : {width:"95%"}
+   //  }
+   //  for (var selector in config) {
+   //    $(selector).chosen(config[selector]);
+   //  }
 
     // Capture the form inputs 
     $("#submit").on("click", function(){
